@@ -33,3 +33,19 @@ console.log('let')
   console.log(const1)
 console.log(const2)
 console.log(const3)
+
+
+
+
+//assignment
+
+function multiplication(x,y){
+    console.log( x + " * " + y + " = " , x * y )
+}
+multiplication(2,5)
+
+function subtraction(x,y){
+    console.log(x + " - " + y + " = " , x - y )
+}
+subtraction(6,3)
+
