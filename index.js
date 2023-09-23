@@ -53,9 +53,9 @@ subtraction(6,3)
 
 //assignment
 const isCitizen = prompt("Are you a citizen? (Yes or No");
-isCitizen.toLowerCase();
 
-const age = parseInt(prompt("Please enter your age:"));
+
+const age = (prompt("Please enter your age:"));
 
 if (isCitizen == "yes" && age >= 18){
   console.log("You are eligble to vote in this election!")
