@@ -40,6 +40,7 @@ console.log(const3)
 //assignment
 
 function multiplication(x,y){
+
     console.log( x + " * " + y + " = " , x * y )
 }
 multiplication(2,5)
@@ -49,3 +50,15 @@ function subtraction(x,y){
 }
 subtraction(6,3)
 
+
+//assignment
+const isCitizen = prompt("Are you a citizen? (Yes or No");
+isCitizen.toLowerCase();
+
+const age = parseInt(prompt("Please enter your age:"));
+
+if (isCitizen == "yes" && age >= 18){
+  console.log("You are eligble to vote in this election!")
+}else{
+  console.log("You are not eligible to vote in this election!")
+}
